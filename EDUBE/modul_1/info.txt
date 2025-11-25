@@ -1,2 +1,37 @@
 Module 1
 Modules, Packages and PIP;
+
+In this module, you will learn about:
+
+importing and using Python modules;
+using some of the most useful Python standard library modules;
+constructing and using Python packages;
+PIP (Python Installation Package) and how to use it to install and uninstall ready-to-use packages from PyPI.
+----------------------------------------------------------------------------------------------------------------------------
+For example, a certain project can be divided into two main parts:
+
+the user interface (the part that communicates with the user using widgets and a graphical screen)
+the logic (the part processing data and producing results)
+Each of these parts can be (most likely) divided into smaller ones, and so on. Such a process is often called decomposition.
+
+Wenn du mehr als ein Modul importieren möchtest (oder musst), kannst du das tun, indem du die Klausel (bevorzugt) wiederholst:import
+
+import math
+import sys
+
+oder indem man die Module nach dem Schlüsselwort auflistet, wie hier:import
+
+import math, sys
+
+Importieren eines Moduls: Fortsetzung
+Schau dir den untenstehenden Ausschnitt an, so qualifizierst du die Namen und mit dem Namen des ursprünglichen Moduls:pisin
+
+math.pi
+math.sin
+
+
+Es ist ganz einfach, du gibst:
+
+der Name des Moduls (z. B. math)
+Ein Punkt (d. h. .)
+der Name der Entität (z. B. pi)

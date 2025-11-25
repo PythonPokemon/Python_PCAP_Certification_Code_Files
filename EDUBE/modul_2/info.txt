@@ -1,0 +1,2 @@
+Module 2
+Strings, string and list methods, and exceptions;

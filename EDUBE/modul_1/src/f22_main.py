@@ -3,7 +3,7 @@ hier wird das modul == f21_module.py
 importiert
 
 führe es aus!
-------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------
 Fällt dir etwas Interessantes auf?
 
 Ein neuer Unterordner ist aufgetaucht – kannst du ihn sehen? Sein Name ist __pycache__. Schau mal hinein. 
@@ -20,6 +20,14 @@ Wenn Python ein Modul zum ersten Mal importiert, übersetzt es dessen Inhalt in 
 
 Die Datei enthält keinen Maschinencode – es handelt sich um internen, halbkompilierten Python-Code, der vom Python-Interpreter ausgeführt werden kann. 
 Da eine solche Datei nicht viele der Prüfungen benötigt, die für eine reine Quelldatei nötig sind, startet die Ausführung schneller und läuft auch schneller.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
 """
 
 import f21_module
+
+"""
+Wir können sagen:
+
+Wenn du eine Datei direkt ausführst, wird ihre Variable auf gesetzt __name____main__;
+Wenn eine Datei als Modul importiert wird, wird ihre Variable auf den Dateinamen gesetzt (ausgenommen .py__name__)
+"""

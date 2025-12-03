@@ -8,7 +8,7 @@ Python durchsucht diese Ordner in der Reihenfolge, in der sie in der Liste aufge
 
 Andernfalls wird der erste Ordner mit einem Modul mit dem gewünschten Namen berücksichtigt 
 (wenn einer der verbleibenden Ordner ein Modul mit diesem Namen enthält, wird er ignoriert).
-
+---------------------------------------------------------------------------------------------------------------------------------
 Die Variable heißt , und sie ist über das Modul mit dem Namen zugänglich. So können Sie seinen regulären Wert überprüfen: pathsys
 
 C:\Users\user
@@ -17,6 +17,7 @@ C:\Users\user\AppData\Local\Programs\Python\Python36-32\DLLs
 C:\Users\user\AppData\Local\Programs\Python\Python36-32\lib
 C:\Users\user\AppData\Local\Programs\Python\Python36-32
 C:\Users\user\AppData\Local\Programs\Python\Python36-32\lib\site-packages
+---------------------------------------------------------------------------------------------------------------------------------
 """
 
 import sys

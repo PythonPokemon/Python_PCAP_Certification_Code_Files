@@ -39,4 +39,10 @@ Hinweis:
 """
 
 # hier muss man den kompletten pfad angeben, da die testdatei außerhalb der modul ordnern ist!
-import EDUBE.modul_1.src.f32_gruppierte_module.extra.good.best.sigma
+#import EDUBE.modul_1.src.f32_gruppierte_module.extra.good.best.sigma
+
+# normaler import
+from EDUBE.modul_1.src.f32_gruppierte_module.extra.good.best import sigma
+
+sigma.funS()
+

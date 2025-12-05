@@ -13,9 +13,9 @@ Damit funktionieren alle Imports immer, egal von wo du startest.
 import os, sys
 
 # 📌 Absoluten Pfad zum Modulordner setzen
-BASE = os.path.dirname(os.path.abspath(__file__))                 # Ordner von f35.py
-MODULE_PATH = os.path.join(BASE, "f32_gruppierte_module")        # Paketordner
-sys.path.append(MODULE_PATH)                                      # Zu sys.path hinzufügen
+BASE = os.path.dirname(os.path.abspath(__file__))                   # Ordner von f35.py
+MODULE_PATH = os.path.join(BASE, "f32_gruppierte_module")           # Paketordner
+sys.path.append(MODULE_PATH)                                        # Zu sys.path hinzufügen
 
 # 📌 Jetzt absolut importieren
 import extra.good.best.sigma

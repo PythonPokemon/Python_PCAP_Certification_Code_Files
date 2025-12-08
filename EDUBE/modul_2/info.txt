@@ -1,2 +1,3 @@
 Module 2
-Strings, string and list methods, and exceptions;
+Strings, 
+string and list methods, and exceptions;

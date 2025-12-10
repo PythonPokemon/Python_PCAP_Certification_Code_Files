@@ -27,9 +27,6 @@ print()
 """
 Strings als Sequenzen: Iteration
 ------------------------------------------------------------------------------------------------------------------------
-Auch durch die Streicher zu iterieren. Schauen Sie sich das untenstehende Beispiel an:
-
-------------------------------------------------------------------------------------------------------------------------
 """
 
 # Iterating through a string.
